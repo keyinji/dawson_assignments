@@ -31,5 +31,5 @@ course_grade = ((completed_labs/6) * 100 * lab_weight) + ((completed_quizzes/6) 
 grade_rounded = round(course_grade, 2)
 
 
-print(f"Your grade for this course is {grade_rounded}")
+print(f"Your grade is: {grade_rounded}")
 
