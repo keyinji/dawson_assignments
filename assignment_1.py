@@ -2,9 +2,9 @@
 completed_labs = int(input("Enter the number of labs completed: "))
 completed_quizzes = int(input("Enter the number of quizzes completed: "))
 if completed_labs > 6:
-    return completed_labs = 6
+    completed_labs = 6
 if completed_quizzes > 6:
-    return completed_quizzes = 6
+    completed_quizzes = 6
 
 # Grades for assignments
 assignment_1 = float(input("Enter grade for Assignment 1: "))
